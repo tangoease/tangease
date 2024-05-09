@@ -9,95 +9,128 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <img src="photo.jpg" alt="Your Photo">
-    <h1><a href="index.html" style="text-decoration: none; color: inherit;">Tango Ease with Silvina Pugliese</a></h1>
-    <nav>
-        <ul>
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#Performances">Performances</a></li>
-            <li><a href="#Articles">Articles</a></li>
-            <li><a href="#Wallpapers">Wallpapers</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=61558993607957" target="_blank"><i class="fab fa-facebook fa-1x"></i></a>
-            </li>
-        </ul>
-    </nav>
-</header>
+    <header style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <div>
+            <img src="logo.png" alt="Your Logo" style="height: 150px; width: auto;">
+        </div>
+        <nav>
+            <ul style="display: flex; justify-content: center; list-style-type: none; padding: 0;">
+                <li><a href="#Classes" class="border_hover">Classes</a></li>
+                <li><a href="#Performances" class="border_hover">Performances</a></li>
+                <li><a href="#Resources" class="border_hover">Resources</a></li>
+                <li><a href="#Contact" class="border_hover">Contact</a></li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61558993607957" target="_blank" class="border_hover">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    
 
-<section id="Classes">
-    <h2>Hi & Welcome</h2>
-    <p class="add_padding">Silvina is an Argentine tango dancer based in Wellington, New Zealand, and she is excited to help you dance tango with ease!</p>
+    <section id="Classes" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 2% 10%; line-height: 1.8; background-color: #EED7CE;">
 
-<p class="add_padding">Silvina's classes are recommended for both followers and leaders who want to work on their fundamentals: balance, walk, and musicality.</p>
+        <div style="flex: 1; text-align: center;">
+            <div class="fotos">
+                <img src="photo3.jpg" alt="Description of your image" height="470">
+            </div>
+        </div>
 
-<p class="add_padding">You can book a session via the calendar link below, and afterwards you will receive an email with the details (the cost of the class, the studio location, etc). Please note that these classes are based in Wellington, New Zealand.</p>
+        <div style="flex: 1; text-align: left;">
+            <p style="font-weight: 600; color: #4a697d;">Welcome to Tango Ease, I'm so happy you are here! </p>
+                
+                <p>Tango Ease is a small tango studio in Wellington, New Zealand. It's run by me, Silvina Pugliese, and I offer dance classes and curated tango wear.</p>
 
+<p>I have a deep love for tango since my first tango class in Mar del Plata in 2011, and it's a big privilege to be part of the New Zealand tango community and be of help in your tango journey.</p>
 
-    <!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0LlcXYdPR4-Ln8mpdVtuzxQInVsIdk_L3wk43O4n0KtrWGPdSRI-ud3DpbfRKVjZnbnXaonJgz?gv=true',
-      color: '#bf1b68',
-      label: 'Book a private class with Silvina',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
-</section>
+<p>Feel free to book a lesson with me, and check out my free resources. Looking forward to seeing you at milongas too!</p>
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="photo3.jpg" alt="Description of your image" height="470">
-    <img src="photo10.jpg" alt="Description of your image" height="470">
-</div>
+            <!-- Google Calendar Appointment Scheduling begin -->
+            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+            <script>
+                (function () {
+                    var target = document.currentScript;
+                    window.addEventListener('load', function () {
+                        calendar.schedulingButton.load({
+                            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0LlcXYdPR4-Ln8mpdVtuzxQInVsIdk_L3wk43O4n0KtrWGPdSRI-ud3DpbfRKVjZnbnXaonJgz?gv=true',
+                            color: '#bf1b68',
+                            label: 'Book a private class with Silvina',
+                            target,
+                        });
+                    });
+                })();
+            </script>
+            <!-- end Google Calendar Appointment Scheduling -->
+        </div>
+       
+    </section>
+    
 
-<section id="Performances">
-    <h2>Performances</h2>
-    <p class="add_padding">In 2017, Silvina had the pleasure of performing with maestro Ricardo Viqueira at the NZ Tango Festival.</p>
-<p class="add_padding">Check out this beautiful milonga!</p>
+    <section id="Performances" style="background-color: #4a697d; color: white; padding: 2% 10%; line-height: 1.8;">
+
+    <h4 class="add_padding">In 2017, Silvina had the pleasure of performing with maestro Ricardo Viqueira at the NZ Tango Festival.</h4>
+<h4 class="add_padding">Check out this beautiful milonga!</h4>
     <div style="display: flex; justify-content: center; flex-wrap: wrap;">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/YzPqen7jUgk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </section>
 
-<section id="Articles">
-    <h2>Articles</h2>
+<section id="Resources" style="display: flex; justify-content: center; align-items: top; flex-wrap: wrap; padding: 2% 10%; line-height: 1.8; background-color: #EED7CE;">
+
+    <div style="flex: 1; text-align: left;">
+        <h2>Articles</h2>
     <ul style="list-style-type: none; margin: 0; padding: 0;">
-        <li><a href="one_song_a_day.html" style="text-decoration: none;">🎶 Improve your tango skills, one song at a time</a></li>
+        <li><a href="one_song_a_day.html" class="border_hover_article" target="_blank">🎶 Improve your tango skills, one song at a time</a></li>
     </ul>
     <br>
     <ul style="list-style-type: none; margin: 0; padding: 0;">
-        <li><a href="wall_support.html" style="text-decoration: none;">👠 Using wall support in your tango practice</a></li>
+        <li><a href="high_heels.html" class="border_hover_article" target="_blank">👠 Dancing in high heels: solo practice tips</a></li>
     </ul>
-</section>
+    </div>
 
-<section id="Wallpapers">
-    <h2>Wallpapers</h2>
+    <div style="flex: 1; text-align: left;">
+        <h2>Wallpapers</h2>
     <p>The following wallpapers are meant to motivate your tango journey!</p>
 <p>Click on the wallpapers you like to download them at full size.</p>
     <a href="keepdancing.png" target="_blank" style="text-decoration: none;">
-        <img src="keepdancing.png" alt="Description of your image" height="315">
+        <img src="keepdancing.png" alt="Description of your image" height="300">
     </a>
-    <a href="daytime.png" target="_blank" style="text-decoration: none;">
-        <img src="daytime.png" alt="Description of your image" height="315">
-    </a>
+    </div>
+   
 </section>
 
-<section id="Contact">
+<section id="Contact" style="padding: 2% 10%;">
     <h2>Let's Connect</h2>
-    <p>Want to get in touch? Send Silvina a direct message via <a href="https://www.instagram.com/silvina_pugliese/" target="_blank">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61558993607957" target="_blank">Facebook</a>.</p>
+    <!-- Google Calendar Appointment Scheduling begin -->
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+    <script>
+        (function () {
+            var target = document.currentScript;
+            window.addEventListener('load', function () {
+                calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0LlcXYdPR4-Ln8mpdVtuzxQInVsIdk_L3wk43O4n0KtrWGPdSRI-ud3DpbfRKVjZnbnXaonJgz?gv=true',
+                    color: '#bf1b68',
+                    label: 'Book a private class with Silvina',
+                    target,
+                });
+            });
+        })();
+    </script>
+    <!-- end Google Calendar Appointment Scheduling -->
+    <p>Want to get in touch? Follow Tango Ease via Facebook and send Silvina a direct message
+    <a href="https://www.facebook.com/profile.php?id=61558993607957" target="_blank">
+        <i class="fab fa-facebook fa-1x" style="color: #bf1b68;"></i>
+    </a>
+</p>
 </section>
 
 <footer>
-    <p  style="font-size: 12px; font-style: italic;">© 2024 Tango Ease, All Rights Reserved. NZBN: 9429052069918.</p>
+    <p  style="font-size: 13px; font-style: italic;">We are proud to be a registered business in New Zealand.</p>
+    <p  style="font-size: 13px; font-style: italic;">© 2024 Tango Ease, All Rights Reserved. NZBN: 9429052069918.</p>
 </footer>
 
 <script src="script.js"></script>
